@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Solutions - Projects</title>
+    <link href="assets/css/bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Explore Our Projects</h1>
+        <div class="row">
+            <!-- Filter Section -->
+            <aside class="col-lg-3 mb-4">
+                <div class="filter-section">
+                    <h5>Filters</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="category" class="form-label">Category</label>
+                            <select class="form-select" id="category">
+                                <option value="">All Categories</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile Apps</option>
+                                <option value="design">Design</option>
+                                <option value="ecommerce">E-commerce</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Price Range</label>
+                            <input type="range" class="form-range" id="priceRange" min="0" max="10000">
+                            <div class="d-flex justify-content-between">
+                                <span>$0</span>
+                                <span>$10,000</span>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Rating</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rating4">
+                                <label class="form-check-label" for="rating4">4 stars & up</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rating3">
+                                <label class="form-check-label" for="rating3">3 stars & up</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Apply Filters</button>
+                    </form>
+                </div>
+            </aside>
+
+            <!-- Projects Grid -->
+            <main class="col-lg-9">
+                <div class="row g-4">
+                    <!-- Example Project Card -->
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/300" alt="Project 1" class="project-image w-100">
+                            <div class="p-3">
+                                <h5 class="card-title">Modern E-commerce</h5>
+                                <p class="card-text">$1500</p>
+                                <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/300" alt="Project 2" class="project-image w-100">
+                            <div class="p-3">
+                                <h5 class="card-title">Portfolio Website</h5>
+                                <p class="card-text">$1200</p>
+                                <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/300" alt="Project 3" class="project-image w-100">
+                            <div class="p-3">
+                                <h5 class="card-title">Mobile App UI</h5>
+                                <p class="card-text">$800</p>
+                                <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/300" alt="Project 4" class="project-image w-100">
+                            <div class="p-3">
+                                <h5 class="card-title">Creative Branding</h5>
+                                <p class="card-text">$500</p>
+                                <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/300" alt="Project 5" class="project-image w-100">
+                            <div class="p-3">
+                                <h5 class="card-title">Custom CMS</h5>
+                                <p class="card-text">$2000</p>
+                                <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/300" alt="Project 6" class="project-image w-100">
+                            <div class="p-3">
+                                <h5 class="card-title">AI Integration</h5>
+                                <p class="card-text">$3000</p>
+                                <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pagination -->
+                <nav class="mt-4">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </main>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.rawgit.com/mhuggins/counter-up/master/jquery.counterup.min.js"></script>
+    <script src="assets/css/bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

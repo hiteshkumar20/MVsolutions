@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Solutions - Home</title>
+    <link href="assets/css/bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/images/logo.png" alt="MV Solutions Logo" width="40" height="40" class="me-2">
+                <span>MV Solutions</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Logo Design</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Website Design
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">E-commerce</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Branding</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Insight</a></li>
+                </ul>
+                <div class="d-flex">
+                    <!-- <button class="btn btn-outline-primary me-2">Login</button> -->
+                    <button class="main-buttons">Get Started Now</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Find & Hire Expert Freelancers</h1>
+                    <p class="lead mb-4">Work with the best freelance talent from around the world on our secure, flexible and cost-effective platform.</p>
+                    <form class="mb-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search, keywords...">
+                            <button class="main-buttons" type="submit">Search</button>
+                        </div>
+                    </form>
+                    <div class="popular-tags">
+                        <span class="me-2">Popular:</span>
+                        <a href="#" class="tag">Data Entry</a>
+                        <a href="#" class="tag">Graphic Design</a>
+                        <a href="#" class="tag">Logo Design</a>
+                        <a href="#" class="tag">Web Developer</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative mt-4 mt-lg-0">
+                    <img src="assets/images/web-hosting-service_lrg.webp" alt="Freelancer working" class="img-fluid rounded-circle">
+                    <!-- <div class="badge trust-badge">
+                        <img src="https://via.placeholder.com/24" alt="Shield icon" width="24" height="24">
+                        <div>
+                            <p class="mb-0"><strong>Safe and secure</strong></p>
+                            <p class="mb-0">Trustworthy and professional</p>
+                        </div>
+                    </div> -->
+                    <!-- <div class="badge review-badge">
+                        <img src="https://via.placeholder.com/40" alt="Reviewer" width="40" height="40" class="rounded-circle">
+                        <div>
+                            <p class="mb-0"><strong>Melinda was an awesome staff!</strong></p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="header">
+            <div>
+                <h1>Trending Services</h1>
+                <p>Find the right service for every price point.</p>
+            </div>
+            <a href="#" class="browse-all">Browse all</a>
+        </div>
+
+        <div class="carousel-container">
+            <button class="nav-button prev" onclick="navigate(-1)">←</button>
+            <div class="carousel">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img1.jpg" alt="WordPress Corporate Site">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">WordPress Corporate Site</h3>
+                        <div class="card-meta">by Freelancer in WordPress</div>
+                        <div class="card-price">
+                            <span class="price">From $350.00</span>
+                            <span class="sales">0 Sales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img2.jpg" alt="Social Media Marketing">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Social Media Marketing</h3>
+                        <div class="card-meta">by sam_design24 in Digital Marketing</div>
+                        <div class="card-price">
+                            <span class="price">From $170.00</span>
+                            <span class="sales">1 Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img3.webp" alt="SEO Optimization">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">SEO Optimization</h3>
+                        <div class="card-meta">by Faisal nawaz in Digital Marketing</div>
+                        <div class="card-price">
+                            <span class="price">From $10.00</span>
+                            <span class="sales">0 Sales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img2.webp" alt="Logo Design">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Logo Design</h3>
+                        <div class="card-meta">by DesignPro in Graphic Design</div>
+                        <div class="card-price">
+                            <span class="price">From $50.00</span>
+                            <span class="sales">3 Sales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img3.webp" alt="Content Writing">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Content Writing</h3>
+                        <div class="card-meta">by WordSmith in Writing & Translation</div>
+                        <div class="card-price">
+                            <span class="price">From $25.00</span>
+                            <span class="sales">2 Sales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img1.jpg" alt="Mobile App Development">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Mobile App Development</h3>
+                        <div class="card-meta">by AppMaster in Programming</div>
+                        <div class="card-price">
+                            <span class="price">From $500.00</span>
+                            <span class="sales">1 Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img1.jpg" alt="Video Editing">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Video Editing</h3>
+                        <div class="card-meta">by VideoWizard in Video & Animation</div>
+                        <div class="card-price">
+                            <span class="price">From $75.00</span>
+                            <span class="sales">4 Sales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img1.jpg" alt="Voice Over">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Voice Over</h3>
+                        <div class="card-meta">by VoicePro in Music & Audio</div>
+                        <div class="card-price">
+                            <span class="price">From $30.00</span>
+                            <span class="sales">2 Sales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img1.jpg" alt="3D Modeling">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">3D Modeling</h3>
+                        <div class="card-meta">by 3DArtist in Design</div>
+                        <div class="card-price">
+                            <span class="price">From $100.00</span>
+                            <span class="sales">1 Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project-img1.jpg" alt="Data Analysis">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Data Analysis</h3>
+                        <div class="card-meta">by DataGuru in Business</div>
+                        <div class="card-price">
+                            <span class="price">From $200.00</span>
+                            <span class="sales">0 Sales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="nav-button next" onclick="navigate(1)">→</button>
+        </div>
+    </div>
+    
+
+    <div class="container mt-5">
+        <ul class="nav nav-tabs" id="pricingTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="logo-tab" data-bs-toggle="tab" data-bs-target="#logo" type="button" role="tab">Logo Packages</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website" type="button" role="tab">Website Packages</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ecommerce-tab" data-bs-toggle="tab" data-bs-target="#ecommerce" type="button" role="tab">E-commerce Website</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="allinone-tab" data-bs-toggle="tab" data-bs-target="#allinone" type="button" role="tab">All in One</button>
+            </li>
+        </ul>
+        <div class="tab-content mt-4" id="pricingTabsContent">
+            <div class="tab-pane fade show active" id="logo" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Bronze</h5>
+                                <p class="price-new mb-0">$99</p>
+                                <p class="original-price">$199</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 4</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 3</li>
+                                    <li>File Formats: Raster (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 48-72 hours</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Silver</h5>
+                                <p class="price-new mb-0">$199</p>
+                                <p class="original-price">$399</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 6</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 5</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design. Both in (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 12-30 hours</li>
+                                    <li>Finalization with revisions within 3-5 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                    </div>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header ">American Gold</h5>
+                                <p class="price-new mb-0">$299</p>
+                                <p class="original-price">$599</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 8</li>
+                                    <li>Dedicated Designers: 2</li>
+                                    <li>Rounds of Revision: Up to 7</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD), Vector (AI, EPS & PDF)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design, Envelope Design, Icon Design, Social Header Design, All in (JPG, PNG & PSD)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 4-6 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                    </div>
+                                </ul>
+                                
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="website" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Bronze</h5>
+                                <p class="price-new mb-0">$99</p>
+                                <p class="original-price">$199</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 4</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 3</li>
+                                    <li>File Formats: Raster (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 48-72 hours</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Silver</h5>
+                                <p class="price-new mb-0">$199</p>
+                                <p class="original-price">$399</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 6</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 5</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design. Both in (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 12-30 hours</li>
+                                    <li>Finalization with revisions within 3-5 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Gold</h5>
+                                <p class="price-new mb-0">$299</p>
+                                <p class="original-price">$599</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3  pricing-content">
+                                    <li>Initial Logo Design Concepts: 8</li>
+                                    <li>Dedicated Designers: 2</li>
+                                    <li>Rounds of Revision: Up to 7</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD), Vector (AI, EPS & PDF)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design, Envelope Design, Icon Design, Social Header Design, All in (JPG, PNG & PSD)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 4-6 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ecommerce" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Bronze</h5>
+                                <p class="price-new mb-0">$99</p>
+                                <p class="original-price">$199</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 4</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 3</li>
+                                    <li>File Formats: Raster (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 48-72 hours</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Silver</h5>
+                                <p class="price-new-new mb-0">$199</p>
+                                <p class="original-price">$399</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 6</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 5</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design. Both in (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 12-30 hours</li>
+                                    <li>Finalization with revisions within 3-5 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>   
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Gold</h5>
+                                <p class="price-new mb-0">$299</p>
+                                <p class="original-price">$599</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 8</li>
+                                    <li>Dedicated Designers: 2</li>
+                                    <li>Rounds of Revision: Up to 7</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD), Vector (AI, EPS & PDF)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design, Envelope Design, Icon Design, Social Header Design, All in (JPG, PNG & PSD)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 4-6 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="allinone" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Bronze</h5>
+                                <p class="price-new mb-0">$99</p>
+                                <p class="original-price">$199</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 4</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 3</li>
+                                    <li>File Formats: Raster (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 48-72 hours</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                        
+                                    </div>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Silver</h5>
+                                <p class="price-new mb-0">$199</p>
+                                <p class="original-price">$399</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 6</li>
+                                    <li>Dedicated Designers: 1</li>
+                                    <li>Rounds of Revision: Up to 5</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design. Both in (JPG, PNG)</li>
+                                    <li>Initial concepts delivered within 12-30 hours</li>
+                                    <li>Finalization with revisions within 3-5 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                    </div>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 position-relative pricing-card">
+                            <div class="card-body">
+                                <h5 class="card-title pricing-header">American Gold</h5>
+                                <p class="price-new mb-0">$299</p>
+                                <p class="original-price">$599</p>
+                                <span class="badge bg-danger save-badge">SAVE $50</span>
+                                <ul class="list-unstyled mt-3 pricing-content">
+                                    <li>Initial Logo Design Concepts: 8</li>
+                                    <li>Dedicated Designers: 2</li>
+                                    <li>Rounds of Revision: Up to 7</li>
+                                    <li>File Formats: Raster (JPG, PNG & PSD), Vector (AI, EPS & PDF)</li>
+                                    <li>Additional: Business Card Design, Letterhead Design, Envelope Design, Icon Design, Social Header Design, All in (JPG, PNG & PSD)</li>
+                                    <li>Initial concepts delivered within 24 hours</li>
+                                    <li>Finalization with revisions within 4-6 Days</li>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary w-100">Order Now</button>
+                                    </div>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-padding-extra text-center call-actionz">
+        <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12">
+                  <div class="parallex-text">
+                     <h5>Since the Start </h5>
+                     <h4>We Provide Stable Service With Experts</h4>
+                     <p>Freelancers around the globe, are looking for work and provide the best they have. Start now </p>
+                     <a href="project-details.html" class="btn btn-theme-secondary">View Projects</a>
+                     <a href="services-details-page.html" class="btn btn-theme">Post a Service</a>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <section class="section review">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-12 mx-auto text-center">
+                    <div>
+                        <h2 class="header-title">Popular Categories</h2>
+                        <p>Get some Inspirations from 1300+ skills</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories1.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Development &amp; IT</h5>
+                                <a href="javascript:void(0);">958 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories7.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Design &amp; Creative</h5>
+                                <a href="javascript:void(0);">515 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories3.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Digital Marketing</h5>
+                                <a href="javascript:void(0);">486 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="2500">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories4.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Writing &amp; Translation</h5>
+                                <a href="javascript:void(0);">956 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories5.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Music &amp; Video</h5>
+                                <a href="javascript:void(0);">662 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories6.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Video &amp; Animation</h5>
+                                <a href="javascript:void(0);">226 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories7.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Engineering &amp; Architecture</h5>
+                                <a href="javascript:void(0);">756 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 aos aos-init aos-animate" data-aos="zoom-in" data-aos-duration="2500">
+                        <div class="popular-catergories">
+                            <div class="popular-catergories-img">
+                                <span><img src="assets/images/categories8.svg" alt="img"></span>
+                            </div>
+                            <div class="popular-catergories-content">
+                                <h5>Finance &amp; Accounting</h5>
+                                <a href="javascript:void(0);">958 Skills<i class="feather-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" style="margin-bottom: 40px;">
+        <div class="section-header">
+            <h2>Achievements We Have Earned</h2>
+            <p>At Freelancer, we believe that talent is borderless and opportunity should be too.</p>
+        </div>
+        
+        <div class="achievements-grid">
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <img src="assets/images/achievement-1.svg" alt="Freelance Developers">
+                </div>
+                <div class="achievement-content">
+                    <h3 class="counter" data-target="1357">0</h3>
+                    <p>Freelance Developers</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <img src="assets/images/achievement-2.svg" alt="Projects Added">
+                </div>
+                <div class="achievement-content">
+                    <h3 class="counter" data-target="1234">0</h3>
+                    <p>Projects Added</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <img src="assets/images/achievement-3.svg" alt="Completed Projects">
+                </div>
+                <div class="achievement-content">
+                    <h3 class="counter" data-target="1356">0</h3>
+                    <p>Completed Projects</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <img src="assets/images/achievement-4.svg" alt="Companies Registered">
+                </div>
+                <div class="achievement-content">
+                    <h3 class="counter" data-target="141">0</h3>
+                    <p>Companies Registered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-top ">
+            <div class="container">
+
+                <div class="row">
+                    <div class=" col-lg-4 col-md-12">
+                        <div class="footer-bottom-logo">
+                            <!-- <a href="index.html" class="menu-logo">
+                                <img src="assets/images/logo.png" class="img-fluid" alt="Logo">
+                            </a> -->
+                            <p>We’re always in search for talented and motivated people. Don’t be shy introduce yourself!</p>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0);" class="btn btn-connectus">Contact with us</a>
+                        </div>
+                    </div>
+                    <div class=" col-lg-8 col-md-12">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="footer-widget footer-menu">
+                                    <h2 class="footer-title">Useful Links</h2>
+                                    <ul>
+                                        <li><a href="about.html"><i class="fas fa-angle-right me-1"></i>About Us</a></li>
+                                        <li><a href="blog-list.html"><i class="fas fa-angle-right me-1"></i>Blog</a></li>
+                                        <li><a href="login.html"><i class="fas fa-angle-right me-1"></i>Login</a></li>
+                                        <li><a href="register.html"><i class="fas fa-angle-right me-1"></i>Register</a></li>
+                                        <li><a href="forgot-password.html"><i class="fas fa-angle-right me-1"></i>Forgot Password</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="footer-widget footer-menu">
+                                    <h2 class="footer-title">Help &amp; Support</h2>
+                                    <ul>
+                                        <li><a href="javascript:void(0);"><i class="fas fa-angle-right me-1"></i>Browse Candidates</a></li>
+                                        <li><a href="javascript:void(0);"><i class="fas fa-angle-right me-1"></i>Employers Dashboard</a></li>
+                                        <li><a href="javascript:void(0);"><i class="fas fa-angle-right me-1"></i>Job Packages</a></li>
+                                        <li><a href="javascript:void(0);"><i class="fas fa-angle-right me-1"></i>Jobs Featured</a></li>
+                                        <li><a href="javascript:void(0);"><i class="fas fa-angle-right me-1"></i>Post A Job</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="footer-widget footer-menu">
+                                    <h2 class="footer-title">Other Links</h2>
+                                    <ul>
+                                        <li><a href="freelancer-dashboard.html"><i class="fas fa-angle-right me-1"></i>Freelancers</a></li>
+                                        <li><a href="freelancer-portfolio.html"><i class="fas fa-angle-right me-1"></i>Freelancer Details</a></li>
+                                        <li><a href="project.html"><i class="fas fa-angle-right me-1"></i>Project</a></li>
+                                        <li><a href="project-details.html"><i class="fas fa-angle-right me-1"></i>Project Details</a></li>
+                                        <li><a href="post-project.html"><i class="fas fa-angle-right me-1"></i>Post Project</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="footer-widget footer-menu">
+                                    <h2 class="footer-title">Connect With Us</h2>
+                                    <ul>
+                                        <li><a href="freelancer-chats.html"><i class="fas fa-angle-right me-1"></i>Chat</a></li>
+                                        <li><a href="faq.html"><i class="fas fa-angle-right me-1"></i>Faq</a></li>
+                                        <li><a href="freelancer-review.html"><i class="fas fa-angle-right me-1"></i>Reviews</a></li>
+                                        <li><a href="privacy-policy.html"><i class="fas fa-angle-right me-1"></i>Privacy Policy</a></li>
+                                        <li><a href="term-condition.html"><i class="fas fa-angle-right me-1"></i>Terms of use</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Footer Top -->
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+            
+                <!-- Copyright -->
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright-text text-center">
+                                <p class="mb-0">Copyright 2024 © MV Solutions. All right reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Copyright -->						
+            </div>
+        </div>
+        <!-- /Footer Bottom -->				
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.rawgit.com/mhuggins/counter-up/master/jquery.counterup.min.js"></script>
+    <script src="assets/css/bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
